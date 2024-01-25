@@ -1,0 +1,9 @@
+// Contents of your external script
+document.addEventListener('DOMContentLoaded', function () {
+    // Your script logic goes here
+    console.log('External script loaded!');
+
+    // Example: Changing the text color of the heading
+    const heading = document.querySelector('h1');
+    heading.style.color = 'green';
+});
